@@ -5,6 +5,9 @@ component: Arduino UNO , LED
 ##Description :
  This project blinks the built-in LED on Arduino UNO with a delay pf 1 second .
  It helps to understand basic digital output and delay functions in Arduino.
+ ## circuit diagram 
+ [click here to view ](https://wokwi.com/projects/433730590277051393)
+ 
  ## Skills Used:
   - pinMode()
   - digitalWrite()
