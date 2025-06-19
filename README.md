@@ -1,4 +1,10 @@
-# day 01-Blinking LED
+# Wokwi Embedded Projects – 30 Day Self-Internship
+
+This repository contains all my embedded system mini 
+projects built using the Wokwi simulator. Each day introduces a new concept
+ starting from basics and moving to advanced applications.
+ 
+ # day 01-Blinking LED
 platform : Wokwi simulator 
 component: Arduino UNO , LED 
 
@@ -14,14 +20,12 @@ component: Arduino UNO , LED
   - delay()
 
 
-  
-# 🚦 Day 02 – Traffic Light Controller using LEDs
+  # 🚦 Day 02 – Traffic Light Controller using LEDs
 
 ## 📅 Project Overview
 This project simulates a basic traffic light controller using three LEDs (Red, Yellow, Green). The lights turn on in a timed sequence just like a real-world traffic signal. This is part of a 30-day embedded systems self-internship.
 
 ---
-
 ## 🛠 Components Used
 | Component      | Quantity |
 |----------------|----------|
@@ -34,7 +38,6 @@ This project simulates a basic traffic light controller using three LEDs (Red, Y
 | Breadboard     | 1        |
 
 ---
-
 ## ⚙ Circuit Connections
 
 | LED Color | Arduino Pin |
@@ -77,9 +80,6 @@ Each LED is connected in series with a 220Ω resistor to ground.
 
 > 🔗 [View Circuit Diagram Here](./traffic_light_diagram.png)  
 
-
----
-
 ## 💡 Working Principle
 The Arduino runs a continuous loop:
 1. Green light turns ON for 5 seconds (vehicles can go)
@@ -88,11 +88,26 @@ The Arduino runs a continuous loop:
 
 This cycle repeats indefinitely.
 
----
-
-## 🧠 Concepts Practiced
+-## 🧠 Concepts Practiced
 - Digital output control using digitalWrite()
 - Pin configuration using pinMode()
 - Timing control with delay()
 - Real-time system simulation
 
+## Day 03 – Button Controlled LED
+
+**Platform:** Wokwi Simulator  
+**Components:** Arduino UNO, LED, Push Button, Resistors
+
+### 🔍 Description:
+This project demonstrates how a push button can be used to control an LED.  
+The LED lights up when the button is pressed and turns off when released.  
+It introduces digital input using `digitalRead()` and basic condition checking.
+
+🔗 [View Circuit Diagram on Wokwi](https://wokwi.com/projects/434182444161851393)
+
+### 💡 Skills Used:
+- `pinMode()`
+- `digitalWrite()`
+- `digitalRead()`
+- `if` conditional statement
